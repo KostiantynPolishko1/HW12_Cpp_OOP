@@ -18,5 +18,22 @@
     <ClCompile Include="HW12_Cpp_OOP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Molecule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HW11_Cpp_OOP\Atom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Molecule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HW11_Cpp_OOP\Atom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HW11_Cpp_OOP\DataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
