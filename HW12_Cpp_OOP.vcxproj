@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW11_Cpp_OOP\Atom.cpp" />
+    <ClCompile Include="Atom.cpp" />
     <ClCompile Include="HW12_Cpp_OOP.cpp" />
     <ClCompile Include="Molecule.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\HW11_Cpp_OOP\Atom.h" />
-    <ClInclude Include="..\HW11_Cpp_OOP\DataBase.h" />
+    <ClInclude Include="Atom.h" />
+    <ClInclude Include="DataBase.h" />
     <ClInclude Include="Molecule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

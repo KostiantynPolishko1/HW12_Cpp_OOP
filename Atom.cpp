@@ -48,12 +48,12 @@ string Atom::getAtomSymbol()
 {
     return _atomSymbol;
 }
-
-string Atom::getAtomName()
+;
+string Atom::getAtomName() const
 {
     return _atomName;
 }
-
+;
 short Atom::getAtomNumber()
 {
     return _atomNumber;
@@ -79,7 +79,7 @@ short Atom::getAtomNNeitron()
     return _atomEnergyLevel;
 }
 
- float Atom::getAtomMass()
+ float Atom::getAtomMass() const
 {
     return _atomMass;
 }

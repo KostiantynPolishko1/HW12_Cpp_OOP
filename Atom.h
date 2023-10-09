@@ -52,13 +52,13 @@ public:
 	}
 
 	string getAtomSymbol();
-	string getAtomName();
+	string getAtomName() const;
 	short getAtomNumber();
 	short getAtomNProton();
 	short getAtomNNeitron();
 	short getAtomNElectron();
 	short getAtomEnergyLevel();
-	float getAtomMass();
+	float getAtomMass() const;
 	short* getArrElectron();
 
 	void setAtomNNeitron(short atomNNeitron);
